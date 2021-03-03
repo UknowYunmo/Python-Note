@@ -13,7 +13,7 @@ print(df.head())
 # 2. 데이터 탐색
 print(df.info())
 
-horsepower에 전처리가 필요한 문자가 포함되어있어서 object 문자형으로 출력되었는데, 이를 수치형 데이터로 변경해야 한다. 
+horsepower에 전처리가 필요한 문자가 포함되어있어서 object 문자형으로 출력되었는데, 이를 수치형 데이터로 변경해야 한다.
 
 print(df['horsepower'].unique())
 
